@@ -1,0 +1,32 @@
+{
+  "name": "custom-field-renderers",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "yarn prebuild && strapi develop",
+    "start": "yarn prebuild && strapi start",
+    "build": "yarn prebuild && strapi build",
+    "strapi": "strapi",
+    "prebuild": "node ./.scripts/index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/design-system": "^0.0.1-alpha.71",
+    "@strapi/plugin-i18n": "4.0.3",
+    "@strapi/plugin-users-permissions": "4.0.3",
+    "@strapi/strapi": "4.0.3",
+    "sqlite3": "5.0.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1bd4cd63-4a33-4bec-8179-49867d00d316"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

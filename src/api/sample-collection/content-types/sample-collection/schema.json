@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sample_collections",
+  "info": {
+    "singularName": "sample-collection",
+    "pluralName": "sample-collections",
+    "displayName": "Sample Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "customFieldConfig": {
+        "fieldRenderer": "my_custom_field_renderer"
+      }
+    },
+    "Address": {
+      "type": "string"
+    }
+  }
+}
